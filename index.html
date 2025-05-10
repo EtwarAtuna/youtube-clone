@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / Navigation Bar -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <h1>YouTube</h1>
+        </div>
+        <div class="nav-actions">
+            <button id="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Back
+            </button>
+            <form id="search-form">
+                <input type="search" id="search-input" placeholder="Search" aria-label="Search YouTube">
+                <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="video-grid">
+            <!-- Video Cards will be dynamically added here -->
+            <div class="video-card">
+                <img src="https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg?auto=compress" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3 class="video-title">Beautiful Landscape Timelapse</h3>
+                    <p class="video-stats">NaN / NaN</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3 class="video-title">Tech Review 2023</h3>
+                    <p class="video-stats">NaN / NaN</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="https://images.pexels.com/photos/1437629/pexels-photo-1437629.jpeg?auto=compress" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3 class="video-title">Travel Vlog: Hidden Gems</h3>
+                    <p class="video-stats">NaN / NaN</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3 class="video-title">Coding Tutorial: Modern Web Dev</h3>
+                    <p class="video-stats">NaN / NaN</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
